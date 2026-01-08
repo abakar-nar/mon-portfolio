@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mon Site Personnel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ABAKAR HASSANE</h1>
+                <p>Admin Reseau</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="personal.html">Accueil</a></li>
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="portfolio.html">Portfolio/CV</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Hero Contact -->
+    <section class="contact-hero">
+        <div class="container">
+            <h2>Contactez-Moi</h2>
+            <p class="subtitle">Une question ? Un projet ? N'hésitez pas à me contacter</p>
+        </div>
+    </section>
+
+    <!-- Section Contact Principal -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Formulaire de Contact -->
+                <article class="contact-form-section">
+                    <h3>Envoyez-moi un message</h3>
+                    <p>Remplissez le formulaire ci-dessous et je vous répondrai dans les plus brefs délais.</p>
+
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" placeholder="Votre nom et prénom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" placeholder="123abnar@gmail.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="+235 62 58 77 27">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sujet">Sujet *</label>
+                            <select id="sujet" name="sujet" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="projet">Proposition de projet</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="stage">Opportunité de stage</option>
+                                <option value="emploi">Offre d'emploi</option>
+                                <option value="info">Demande d'information</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande en détail..." required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">J'accepte que mes données soient utilisées pour me recontacter</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">
+                            📧 Envoyer le message
+                        </button>
+                    </form>
+                </article>
+
+                <!-- Informations de Contact -->
+                <aside class="contact-info-section">
+                    <h3>Mes Coordonnées</h3>
+                    
+                    <div class="contact-info-list">
+                        <div class="info-card">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>123abnar@gmail.com</p>
+                                <a href="mailto:123abnar@gmail.com">M'envoyer un email</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📱</div>
+                            <div class="info-content">
+                                <h4>Téléphone</h4>
+                                <p>+235 62 58 77 27</p>
+                                <a href="tel:+23562587727">M'appeler</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h4>Localisation</h4>
+                                <p>N'Djamena, Tchad</p>
+                                <p class="small">Quartier Walia</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h4>Disponibilité</h4>
+                                <p>Lundi - Vendredi</p>
+                                <p class="small">9h00 - 18h00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-response">
+                        <h4>⚡ Réponse Rapide</h4>
+                        <p>Je réponds généralement dans les 24 heures aux messages reçus en semaine.</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réseaux Sociaux -->
+    <section class="social-section">
+        <div class="container">
+            <h2>Suivez-moi sur les Réseaux Sociaux</h2>
+            <p>Restons connectés ! Retrouvez-moi sur mes différents réseaux professionnels</p>
+
+            <div class="social-grid">
+                <a href="https://www.enastic.td/" class="social-card linkedin" target="_blank" rel="noopener">
+                    <div class="social-icon">
+                        <span>in</span>
+                    </div>
+                    <h3>linkedin</h3>
+                    <p>Réseau professionnel</p>
+                    <span class="social-link-text">Voir mon profil →</span>
+                </a>
+                <a href="https://www.enastic.td/" class="social-card twitter" target="_blank" rel="noopener">
+                    <div class="social-icon">
+                        <span>𝕏</span>
+                    </div>
+                    <h3>Twitter / X</h3>
+                    <p>Actualités et veille tech</p>
+                    <span class="social-link-text">Me suivre →</span>
+                </a>
+
+                <a href="https://www.enastic.td/" class="social-card facebook" target="_blank" rel="noopener">
+                    <div class="social-icon">
+                        <span>f</span>
+                    </div>
+                    <h3>Facebook</h3>
+                    <p>Page professionnelle</p>
+                    <span class="https://www.enastic.td/">Visiter la page →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Questions Fréquentes</h2>
+            
+            <div class="faq-list">
+                <article class="faq-item">
+                    <h3>❓ Êtes-vous disponible pour des projets freelance ?</h3>
+                    <p>Oui, je suis ouvert aux opportunités freelance, particulièrement pour des projets d'Administration Reseau'. N'hésitez pas à me contacter pour discuter de votre projet.</p>
+                </article>
+
+                <article class="faq-item">
+                    <h3>❓ Quels types de projets acceptez-vous ?</h3>
+                    <p>Je travaille principalement sur des LAB reseaux. Je suis également ouvert à des projets éducatifs.</p>
+                </article>
+
+                <article class="faq-item">
+                    <h3>❓ Quel est votre délai de réponse ?</h3>
+                    <p>Je réponds généralement dans les 24 heures aux messages reçus en semaine. Pour les demandes urgentes, n'hésitez pas à me le préciser dans votre message.</p>
+                </article>
+
+                <article class="faq-item">
+                    <h3>❓ Proposez-vous des services de maintenance ?</h3>
+                    <p>Oui, je propose des services de maintenance et de mise à jour pour les equipements reseaux. Nous pouvons discuter d'un arrangement adapté à vos besoins.</p>
+                </article>
+
+                <article class="faq-item">
+                    <h3>❓ Travaillez-vous en équipe ou seul ?</h3>
+                    <p>Je travaille actuellement principalement seul sur des projets, mais je suis ouvert à des collaborations avec des agences pour des projets plus complexes.</p>
+                </article>
+
+                <article class="faq-item">
+                    <h3>❓ Cherchez-vous un stage ou un emploi ?</h3>
+                    <p>Oui, je suis actuellement en formation et je recherche activement des opportunités de stage ou d'emploi dans le domaine d'Administration. N'hésitez pas à me contacter si vous avez une opportunité.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Call-to-Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à démarrer un projet ?</h2>
+            <p>Que ce soit pour un projet d'Administration, une collaboration ou simplement pour échanger sur les technologies, je serais ravi d'en discuter avec vous.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary" onclick="document.getElementById('nom').focus(); return false;">📝 Remplir le formulaire</a>
+                <a href="mailto:votre.email@exemple.com" class="btn btn-secondary">📧 Envoyer un email direct</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="portfolio.html">Portfolio/CV</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Réseaux Sociaux</h4>
+                    <div class="social-links">
+                        <a href="https://www.enastic.td/" title="Facebook">Facebook</a>
+                        <a href="https://www.enastic.td/" title="Whatsapp">Whatsapp</a>
+                        <a href="https://www.enastic.td/" title="Twitter">Twitter</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email : 123abnar@gmail.com</p>
+                    <p>Tél: +235 62 58 77 27</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Abakar Hassane - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Gestion de la soumission du formulaire
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Récupération des données
+            const nom = document.getElementById('nom').value;
+            const email = document.getElementById('email').value;
+            const sujet = document.getElementById('sujet').value;
+            const message = document.getElementById('message').value;
+            
+            // Affichage d'un message de confirmation
+            alert('Merci ' + nom + ' !\n\nVotre message a été envoyé avec succès.\nJe vous répondrai à l\'adresse: ' + email + '\n\nÀ bientôt !');
+            
+            // Réinitialisation du formulaire
+            this.reset();
+        });
+    </script>
+</body>
+</html>
