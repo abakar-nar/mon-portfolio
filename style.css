@@ -105,16 +105,22 @@ nav a.active {
     gap: 2rem;
     align-items: center;
     text-align: center;
+   justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
     width: 100%;
+   justify-content: center;
+    align-items: center;
 }
 
 .hero-content h2 {
     font-size: clamp(1.8rem, 5vw, 3rem);
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease;
+   justify-content: center;
+    align-items: center;
 }
 
 .hero-subtitle {
@@ -122,12 +128,16 @@ nav a.active {
     margin-bottom: 2rem;
     opacity: 0.95;
     animation: fadeInUp 1s ease 0.2s backwards;
+   justify-content: center;
+    align-items: center;
 }
 
 .hero-description {
     margin-bottom: 2rem;
     font-size: clamp(0.95rem, 2vw, 1.1rem);
     animation: fadeInUp 1s ease 0.4s backwards;
+   justify-content: center;
+    align-items: center;
 }
 
 .cta-buttons {
