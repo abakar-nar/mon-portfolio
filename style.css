@@ -104,21 +104,6 @@ nav a.active {
     align-items: center;
     text-align: center;
 }
-.hero .container {
-    flex-direction: row;
-    text-align: left;
-}
-
-.hero-content {
-    width: 60%;
-    order: 1;
-}
-
-.hero-image {
-    width: 40%;
-    order: 2;
-}
-
 .hero-content {
     width: 100%;
 }
