@@ -99,10 +99,24 @@ nav a.active {
 
 .hero .container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column; /* image en haut, texte en bas sur mobile */
     gap: 2rem;
     align-items: center;
     text-align: center;
+}
+.hero .container {
+    flex-direction: row;
+    text-align: left;
+}
+
+.hero-content {
+    width: 60%;
+    order: 1;
+}
+
+.hero-image {
+    width: 40%;
+    order: 2;
 }
 
 .hero-content {
